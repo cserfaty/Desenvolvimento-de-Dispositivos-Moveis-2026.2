@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Países Quiz</string>
+    <string name="welcome_title">Flag Quiz</string>
+    <string name="hint_player_name">Digite seu nome</string>
+    <string name="btn_start">Começar</string>
+    <string name="error_empty_name">Por favor, digite seu nome para continuar!</string>
+</resources>

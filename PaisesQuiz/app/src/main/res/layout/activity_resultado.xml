@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_cream"
+    android:padding="28dp">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Quiz Concluído!"
+        android:textColor="@color/primary_red"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:strokeColor="@color/accent_gold"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="Logo"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/tvNomeJogador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Parabéns, Jogador!"
+                android:textColor="@color/text_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPontuacaoFinal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Você acertou 0 de 5 bandeiras!"
+                android:textColor="@color/primary_red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnJogarNovamente"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginBottom="12dp"
+        android:text="Jogar Novamente"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/primary_red"
+        app:cornerRadius="29dp"
+        app:elevation="6dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInicio"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Voltar ao Início"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/primary_red_dark"
+        app:cornerRadius="29dp"
+        app:elevation="6dp" />
+
+</LinearLayout>

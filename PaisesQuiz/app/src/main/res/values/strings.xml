@@ -4,4 +4,14 @@
     <string name="hint_player_name">Digite seu nome</string>
     <string name="btn_start">Começar</string>
     <string name="error_empty_name">Por favor, digite seu nome para continuar!</string>
+
+    <string name="formato_contador_pergunta">Pergunta %1$d de %2$d</string>
+    <string name="resultado_correto">Correto!</string>
+    <string name="resultado_incorreto">Incorreto! Resposta certa: %1$s</string>
+    <string name="btn_proxima">Próxima</string>
+    <string name="btn_ver_resultado">Ver resultado</string>
+
+    <string name="titulo_resultado">Fim de jogo!</string>
+    <string name="formato_pontuacao_final">%1$d pontos</string>
+    <string name="btn_jogar_novamente">Jogar novamente</string>
 </resources>

@@ -7,4 +7,6 @@
     <color name="bg_cream">#FAF7F2</color>
     <color name="text_dark">#2B2B2B</color>
     <color name="accent_gold">#C8A97E</color>
+    <color name="correct_green">#2E7D32</color>
+    <color name="incorrect_red">#C62828</color>
 </resources>
